@@ -2,8 +2,7 @@
 //  ContentView.swift
 //  LCTO-13
 //
-//  Created by thomasperez on 3/31/24.
-//
+//  Created by thomasperez on 4/1/24. "Easter Monday"
 
 import SwiftUI
 
@@ -83,5 +82,3 @@ struct LCTO_13App: App {
         }
     }
 }
-
-

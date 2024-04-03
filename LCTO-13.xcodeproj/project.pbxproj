@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B20A97F76F1CDBF23B0E365 /* Pods_LCTO_13Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDC6313B744BFD61086A885 /* Pods_LCTO_13Tests.framework */; };
+		42C9547E466D82F027E72FF8 /* Pods_LCTO_13_LCTO_13UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B957671D9F40F344040712B /* Pods_LCTO_13_LCTO_13UITests.framework */; };
+		D50C5AC7BE313C56DA17243F /* Pods_LCTO_13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A2033902571D33C66F328A /* Pods_LCTO_13.framework */; };
 		FF3356D92BBA4F2400CA375F /* LCTO_13App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3356D82BBA4F2400CA375F /* LCTO_13App.swift */; };
 		FF3356DB2BBA4F2400CA375F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3356DA2BBA4F2400CA375F /* ContentView.swift */; };
 		FF3356DD2BBA4F2500CA375F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3356DC2BBA4F2500CA375F /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		FF3356EB2BBA4F2500CA375F /* LCTO_13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3356EA2BBA4F2500CA375F /* LCTO_13Tests.swift */; };
 		FF3356F52BBA4F2500CA375F /* LCTO_13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3356F42BBA4F2500CA375F /* LCTO_13UITests.swift */; };
 		FF3356F72BBA4F2500CA375F /* LCTO_13UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3356F62BBA4F2500CA375F /* LCTO_13UITestsLaunchTests.swift */; };
+		FF3357042BBB81D900CA375F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3357032BBB81D900CA375F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07EFD8140FE1BB00165BF30E /* Pods-LCTO-13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCTO-13.release.xcconfig"; path = "Target Support Files/Pods-LCTO-13/Pods-LCTO-13.release.xcconfig"; sourceTree = "<group>"; };
+		0CDC6313B744BFD61086A885 /* Pods_LCTO_13Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCTO_13Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274CF2DB8069B972AF5F95D7 /* Pods-LCTO-13Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCTO-13Tests.debug.xcconfig"; path = "Target Support Files/Pods-LCTO-13Tests/Pods-LCTO-13Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45DF716187A37E90777A7484 /* Pods-LCTO-13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCTO-13.debug.xcconfig"; path = "Target Support Files/Pods-LCTO-13/Pods-LCTO-13.debug.xcconfig"; sourceTree = "<group>"; };
+		6515CEDC746815F631130753 /* Pods-LCTO-13Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCTO-13Tests.release.xcconfig"; path = "Target Support Files/Pods-LCTO-13Tests/Pods-LCTO-13Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69EFDC8C8EB3D82539AF0A9A /* Pods-LCTO-13-LCTO-13UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCTO-13-LCTO-13UITests.debug.xcconfig"; path = "Target Support Files/Pods-LCTO-13-LCTO-13UITests/Pods-LCTO-13-LCTO-13UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B957671D9F40F344040712B /* Pods_LCTO_13_LCTO_13UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCTO_13_LCTO_13UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F127D7B55859C6F48A62992 /* Pods-LCTO-13-LCTO-13UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCTO-13-LCTO-13UITests.release.xcconfig"; path = "Target Support Files/Pods-LCTO-13-LCTO-13UITests/Pods-LCTO-13-LCTO-13UITests.release.xcconfig"; sourceTree = "<group>"; };
+		72A2033902571D33C66F328A /* Pods_LCTO_13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCTO_13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3356D52BBA4F2400CA375F /* LCTO-13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LCTO-13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3356D82BBA4F2400CA375F /* LCTO_13App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13App.swift; sourceTree = "<group>"; };
 		FF3356DA2BBA4F2400CA375F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,7 @@
 		FF3356F02BBA4F2500CA375F /* LCTO-13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LCTO-13UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3356F42BBA4F2500CA375F /* LCTO_13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13UITests.swift; sourceTree = "<group>"; };
 		FF3356F62BBA4F2500CA375F /* LCTO_13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF3357032BBB81D900CA375F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50C5AC7BE313C56DA17243F /* Pods_LCTO_13.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B20A97F76F1CDBF23B0E365 /* Pods_LCTO_13Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C9547E466D82F027E72FF8 /* Pods_LCTO_13_LCTO_13UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1D1A810D3AF1DF29A3F1434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A2033902571D33C66F328A /* Pods_LCTO_13.framework */,
+				6B957671D9F40F344040712B /* Pods_LCTO_13_LCTO_13UITests.framework */,
+				0CDC6313B744BFD61086A885 /* Pods_LCTO_13Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF80033A5806E8B839FA4FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45DF716187A37E90777A7484 /* Pods-LCTO-13.debug.xcconfig */,
+				07EFD8140FE1BB00165BF30E /* Pods-LCTO-13.release.xcconfig */,
+				69EFDC8C8EB3D82539AF0A9A /* Pods-LCTO-13-LCTO-13UITests.debug.xcconfig */,
+				6F127D7B55859C6F48A62992 /* Pods-LCTO-13-LCTO-13UITests.release.xcconfig */,
+				274CF2DB8069B972AF5F95D7 /* Pods-LCTO-13Tests.debug.xcconfig */,
+				6515CEDC746815F631130753 /* Pods-LCTO-13Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF3356CC2BBA4F2400CA375F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +120,8 @@
 				FF3356E92BBA4F2500CA375F /* LCTO-13Tests */,
 				FF3356F32BBA4F2500CA375F /* LCTO-13UITests */,
 				FF3356D62BBA4F2400CA375F /* Products */,
+				DFF80033A5806E8B839FA4FF /* Pods */,
+				C1D1A810D3AF1DF29A3F1434 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +138,7 @@
 		FF3356D72BBA4F2400CA375F /* LCTO-13 */ = {
 			isa = PBXGroup;
 			children = (
+				FF3357032BBB81D900CA375F /* GoogleService-Info.plist */,
 				FF3356D82BBA4F2400CA375F /* LCTO_13App.swift */,
 				FF3356DA2BBA4F2400CA375F /* ContentView.swift */,
 				FF3356DC2BBA4F2500CA375F /* Assets.xcassets */,
@@ -136,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF3356FA2BBA4F2500CA375F /* Build configuration list for PBXNativeTarget "LCTO-13" */;
 			buildPhases = (
+				85E69C2E6AD8D5C787CF46D4 /* [CP] Check Pods Manifest.lock */,
 				FF3356D12BBA4F2400CA375F /* Sources */,
 				FF3356D22BBA4F2400CA375F /* Frameworks */,
 				FF3356D32BBA4F2400CA375F /* Resources */,
+				EE670426125AFE599E001773 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF3356FD2BBA4F2500CA375F /* Build configuration list for PBXNativeTarget "LCTO-13Tests" */;
 			buildPhases = (
+				C6BEE8BA0CE66A171EA8A297 /* [CP] Check Pods Manifest.lock */,
 				FF3356E22BBA4F2500CA375F /* Sources */,
 				FF3356E32BBA4F2500CA375F /* Frameworks */,
 				FF3356E42BBA4F2500CA375F /* Resources */,
@@ -171,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF3357002BBA4F2500CA375F /* Build configuration list for PBXNativeTarget "LCTO-13UITests" */;
 			buildPhases = (
+				403B54254DC16FF7358514B8 /* [CP] Check Pods Manifest.lock */,
 				FF3356EC2BBA4F2500CA375F /* Sources */,
 				FF3356ED2BBA4F2500CA375F /* Frameworks */,
 				FF3356EE2BBA4F2500CA375F /* Resources */,
+				47EE75CE5A9EDA534E6768E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +284,7 @@
 			files = (
 				FF3356E02BBA4F2500CA375F /* Preview Assets.xcassets in Resources */,
 				FF3356DD2BBA4F2500CA375F /* Assets.xcassets in Resources */,
+				FF3357042BBB81D900CA375F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403B54254DC16FF7358514B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCTO-13-LCTO-13UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47EE75CE5A9EDA534E6768E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCTO-13-LCTO-13UITests/Pods-LCTO-13-LCTO-13UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCTO-13-LCTO-13UITests/Pods-LCTO-13-LCTO-13UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCTO-13-LCTO-13UITests/Pods-LCTO-13-LCTO-13UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E69C2E6AD8D5C787CF46D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCTO-13-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BEE8BA0CE66A171EA8A297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCTO-13Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE670426125AFE599E001773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCTO-13/Pods-LCTO-13-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCTO-13/Pods-LCTO-13-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCTO-13/Pods-LCTO-13-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF3356D12BBA4F2400CA375F /* Sources */ = {
@@ -412,6 +565,7 @@
 		};
 		FF3356FB2BBA4F2500CA375F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DF716187A37E90777A7484 /* Pods-LCTO-13.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -437,6 +591,7 @@
 		};
 		FF3356FC2BBA4F2500CA375F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EFD8140FE1BB00165BF30E /* Pods-LCTO-13.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +617,7 @@
 		};
 		FF3356FE2BBA4F2500CA375F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274CF2DB8069B972AF5F95D7 /* Pods-LCTO-13Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +636,7 @@
 		};
 		FF3356FF2BBA4F2500CA375F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6515CEDC746815F631130753 /* Pods-LCTO-13Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +655,7 @@
 		};
 		FF3357012BBA4F2500CA375F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EFDC8C8EB3D82539AF0A9A /* Pods-LCTO-13-LCTO-13UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +672,7 @@
 		};
 		FF3357022BBA4F2500CA375F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F127D7B55859C6F48A62992 /* Pods-LCTO-13-LCTO-13UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
