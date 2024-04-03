@@ -5,7 +5,7 @@
 //  Created by thomasperez on 4/1/24. "Easter Monday"
 
 import SwiftUI
-//import FirebaseCore
+import FirebaseCore
 import Firebase
 //import FirebaseAnalytics
 
