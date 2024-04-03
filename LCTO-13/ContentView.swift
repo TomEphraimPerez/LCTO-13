@@ -5,6 +5,7 @@
 //  Created by thomasperez on 4/1/24. "Easter Monday"
 
 import SwiftUI
+import FirebaseCore
 
 struct ContentView: View {
     var body: some View {
@@ -74,11 +75,29 @@ struct InquireView: View {
     }
 }
 
+
+
+// https://console.firebase.google.com/u/0/project/lcto-13/overview
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+content_copy
+
+    return true
+  }
+}
+
+
 @main
 struct LCTO_13App: App {
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+      WindowGroup {
+        NavigationView {
+          ContentView()
         }
+      }
     }
-}
+  }

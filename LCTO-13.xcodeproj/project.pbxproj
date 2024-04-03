@@ -59,6 +59,8 @@
 		FF3356F42BBA4F2500CA375F /* LCTO_13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13UITests.swift; sourceTree = "<group>"; };
 		FF3356F62BBA4F2500CA375F /* LCTO_13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF3357032BBB81D900CA375F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFD3BC3C2BBD0C4C00253F98 /* firebase-ios-sdk-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-main"; path = "../Desktop/firebase-ios-sdk-main"; sourceTree = "<group>"; };
+		FFD3BC3D2BBD0C8100253F98 /* firebase-ios-sdk-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-main"; path = "../Desktop/firebase-ios-sdk-main"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,13 @@
 				274CF2DB8069B972AF5F95D7 /* Pods-LCTO-13Tests.debug.xcconfig */,
 				6515CEDC746815F631130753 /* Pods-LCTO-13Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		FF3356CC2BBA4F2400CA375F = {
 			isa = PBXGroup;
 			children = (
+				FFD3BC3B2BBD0C4C00253F98 /* Packages */,
 				FF3356D72BBA4F2400CA375F /* LCTO-13 */,
 				FF3356E92BBA4F2500CA375F /* LCTO-13Tests */,
 				FF3356F32BBA4F2500CA375F /* LCTO-13UITests */,
@@ -171,6 +173,15 @@
 				FF3356F62BBA4F2500CA375F /* LCTO_13UITestsLaunchTests.swift */,
 			);
 			path = "LCTO-13UITests";
+			sourceTree = "<group>";
+		};
+		FFD3BC3B2BBD0C4C00253F98 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FFD3BC3C2BBD0C4C00253F98 /* firebase-ios-sdk-main */,
+				FFD3BC3D2BBD0C8100253F98 /* firebase-ios-sdk-main */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
