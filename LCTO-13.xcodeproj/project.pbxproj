@@ -59,8 +59,7 @@
 		FF3356F42BBA4F2500CA375F /* LCTO_13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13UITests.swift; sourceTree = "<group>"; };
 		FF3356F62BBA4F2500CA375F /* LCTO_13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTO_13UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF3357032BBB81D900CA375F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FFD3BC3C2BBD0C4C00253F98 /* firebase-ios-sdk-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-main"; path = "../Desktop/firebase-ios-sdk-main"; sourceTree = "<group>"; };
-		FFD3BC3D2BBD0C8100253F98 /* firebase-ios-sdk-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-main"; path = "../Desktop/firebase-ios-sdk-main"; sourceTree = "<group>"; };
+		FFA2E4512BBF130500827B05 /* firebase-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk"; path = "../Desktop/firebase-ios-sdk"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +177,7 @@
 		FFD3BC3B2BBD0C4C00253F98 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				FFD3BC3C2BBD0C4C00253F98 /* firebase-ios-sdk-main */,
-				FFD3BC3D2BBD0C8100253F98 /* firebase-ios-sdk-main */,
+				FFA2E4512BBF130500827B05 /* firebase-ios-sdk */,
 			);
 			name = Packages;
 			sourceTree = "<group>";

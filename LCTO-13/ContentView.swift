@@ -4,10 +4,20 @@
 //
 //  Created by thomasperez on 4/1/24. "Easter Monday"
 
-//import SwiftUI
-//import FirebaseCore
-//import Firebase
+
+
+/*
+https://stackoverflow.com/questions/39593860/what-is-the-difference-between-installing-regular-firebase-firebase-core-in-io
+You don't need to include pod 'Firebase/Core'. Core is the default subspec for pod 'Firebase' and will be automatically included from pod 'Firebase'. With the current Firebase pod organization, the purpose of Core is to include Analytics. This may change in the future.
+*/
+
+import SwiftUI
+import FirebaseCore
+
+import Firebase
 //?import FirebaseAnalytics?
+
+
 
 struct ContentView: View {
     var body: some View {
@@ -80,7 +90,7 @@ struct InquireView: View {
 
 
 // https://console.firebase.google.com/u/0/project/lcto-13/overview
-
+// // Use Firebase library to configure APIs
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
