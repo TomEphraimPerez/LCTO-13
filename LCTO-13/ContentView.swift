@@ -14,7 +14,7 @@ You don't need to include pod 'Firebase/Core'. Core is the default subspec for p
 import SwiftUI
 import FirebaseCore
 
-import Firebase
+//import Firebase
 //?import FirebaseAnalytics?
 
 
