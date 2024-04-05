@@ -88,7 +88,7 @@ struct InquireView: View {
 }
 
 
-
+/*
 // https://console.firebase.google.com/u/0/project/lcto-13/overview
 // // Use Firebase library to configure APIs
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -98,9 +98,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     return true
   }
 }
+*/
 
 
 
+/*
 @main
 struct LCTO_13App: App {
     // register app delegate for Firebase setup
@@ -114,3 +116,4 @@ struct LCTO_13App: App {
       }
     }
   }
+*/
