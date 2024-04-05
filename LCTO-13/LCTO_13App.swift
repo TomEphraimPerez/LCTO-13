@@ -7,6 +7,9 @@
 
 
 
+// UIApplication_ _ _ ->
+// NSApplication_ _ _ .
+
 import SwiftUI
 import FirebaseCore
 //import Firebase
@@ -14,21 +17,20 @@ import FirebaseCore
  
 // https://console.firebase.google.com/u/0/project/lcto-13/overview
 // // Use Firebase library to configure APIs
-class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func application(_ application: NSApplication,
+                //didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {     //o
+                  didFinishLaunchingWithOptions launchOptions: [NSApplication : Any]? = nil) -> Bool {
     FirebaseApp.configure()
     return true
   }
 }
 
 
-
+// register app delegate for Firebase setup
 @main
 struct LCTO_13App: App {
-    // register app delegate for Firebase setup
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
       WindowGroup {
         NavigationView {
